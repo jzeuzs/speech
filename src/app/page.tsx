@@ -15,6 +15,7 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { DitherShader } from "@/components/ui/dither-shader";
+import Link from "next/link";
 
 const elements = [
     {
@@ -321,7 +322,13 @@ export function LifetimePage() {
             </section>
             <footer className="flex flex-col gap-4 border-t border-border px-6 py-8 font-mono text-[10px] tracking-[.16em] text-muted-foreground md:flex-row md:items-center md:justify-between md:px-10">
                 <span>LIFETIME (REIMAGINED)</span>
-                <span>by Jezzu Morrisen C. Quimosing | Speech 30 THZ</span>
+                <span>
+                    by{" "}
+                    <Link href="https://j3z.dev">
+                        Jezzu Morrisen C. Quimosing
+                    </Link>{" "}
+                    | Speech 30 THZ
+                </span>
                 <span>BEN & BEN</span>
             </footer>
         </main>

@@ -15,7 +15,14 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
     title: "lifetime.",
     description: "Speech 30 - Elements of Communication in a Song",
-    keywords: ["lifetime", "ben & ben", "speech 30", "communication", "elements of communication", "up diliman"],
+    keywords: [
+        "lifetime",
+        "ben & ben",
+        "speech 30",
+        "communication",
+        "elements of communication",
+        "up diliman",
+    ],
     authors: [{ name: "Jezzu Morrisen Quimosing", url: "https://j3z.dev" }],
     creator: "Jezzu Morrisen Quimosing",
     openGraph: {
